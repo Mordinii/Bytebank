@@ -1,104 +1,44 @@
 
-body{
 
+
+.card {
+    align-items: center;
+    max-width: 32rem;
+    height: 25rem;
+    padding-top: 30px;
+    margin: 0 auto;
+    margin-top: 17rem;
+    box-shadow: 10px 10px 5px #aaaaaa;
 
 }
 
-*{
-    margin: 0;
-    padding: 0;
-
-}
-
-.banco{
-
-    width: 100%;
-    position:absolute;
-}
-
-
-.card{
-    left: 35%;
-    top: 30%;
-    position:absolute;
-    display: inline-block;
+h1{ 
     text-align: center;
-    width: 25%;
-    height: 38%;
-    background-color: rgb(250, 253, 250);
-    box-shadow: 0px 0px 100px  rgb(0, 0, 0);
-    border: 5px solid  rgb(44, 88, 38);
-}
-
-.divCard{
-
+    margin-bottom: 3rem;  
+    background: -webkit-linear-gradient(black, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
-.dinheiro{ 
-    width: 7%;
-    margin-right: 20px ;
+input{
+    margin-bottom:20px;
 
 
 }
 
-.conta{
-    width: 6%;
-    margin-bottom: 8px;
-    margin-right: 15px;
-}
-
-
-form{
-    padding-top: 3rem;
-    margin-top: 1rem;
-    height:20rem;
-
-}
-
-.formg{
-
-    margin-bottom: 6%;
-
-}
-
-label{
-    font-size: 130%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
-    margin-right: 23rem; 
-    
-
-}
-
-button{
-    width: 40%; 
-    height: 19%;
-    background:linear-gradient(to right, rgb(4, 80, 4),rgb(13, 245, 13));
-    border: none;
-    font-family:Arial, Helvetica, sans-serif;
-    margin-right: 15px;
-    margin-top: 15px;
-    font-size: 20px;
-    transition: height, width 2s;   
-}
-
-button:hover{
-    width: 45%;
-    box-shadow: 0px 0px 10px  rgb(0, 0, 0);
+button {
+    width: 20rem;
+    margin-top: 3rem;
+    background: linear-gradient( to right, green, black);
     color:white;
-
+    color:white;
+    border: 0;
 }
 
-
-
-
-input {
-    border: 3px solid green ;
-    width: 90%;
- 
+button:hover{ 
+    background: linear-gradient( to right, rgb(0, 0, 0), green);
+    color:rgb(255, 255, 255);
+    box-shadow: 10px 10px 5px #aaaaaa;
 
 }
-
-
-
