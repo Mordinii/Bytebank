@@ -9,4 +9,25 @@ import { Component } from "@angular/core";
 
 })
 
-export class BodyComponent {}
+    
+
+export class BodyComponent {
+
+    valor!: number;
+    destino!: number;
+
+
+    transferir(){
+        
+        console.log("Valor:", this.valor);
+        console.log("Destino:", this.destino);
+
+    }
+
+    
+
+
+}
+
+    
+

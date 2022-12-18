@@ -1,13 +1,19 @@
-@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
 
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+
+
+.form-control{
+    box-shadow: none;
+
+}
 
 
 .site{
-    font-size: 70px;
+    font-size: 90px;
     color: white;
     text-align: center;
-    margin-top: 10rem;
-    text-decoration: underline 5px;
+    margin-top: 8rem;
+    text-decoration: underline 7px;
 }
 
 
@@ -17,8 +23,8 @@
     height: 27rem;
     padding-top: 30px;
     margin: 0 auto;
-    margin-top: 4rem;
-    box-shadow: rgba(2, 235, 2, 0.35) 1px 1px 100px 15px;
+    margin-top: 6rem;
+    box-shadow: rgba(2, 235, 2, 0.35) 2px 1px 100px 15px;
 
 }
 
@@ -38,11 +44,34 @@ label{
 
 }
 
+
+
+
 input {
     margin-bottom:20px;
     background: linear-gradient( to right, green, black);
     color: white;
-    
+    border: 0;
+    outline: 0;
+}
+
+input::after{
+
+    box-shadow: none;
+
+}
+
+
+::placeholder{
+    color: white;
+
+
+}
+
+
+input:focus{
+    color: rgb(255, 255, 255);
+
 }
 
 
@@ -50,6 +79,7 @@ input {
 
 button {
     width: 30rem;
+    height: 3rem;
     margin-top: 4rem;
     background: linear-gradient( to right, green, black);
     color:white;
